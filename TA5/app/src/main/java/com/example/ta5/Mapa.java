@@ -43,13 +43,12 @@ public class Mapa extends FragmentActivity implements OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(-34, 151);
+        // se pone el marcador el sidney
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
-    public void mapa(View view) {
-        Intent i = new Intent(this, Mapa.class );
-        startActivity(i);
-    }
+
+
 
 }

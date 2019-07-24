@@ -31,6 +31,7 @@ public class Calendario extends AppCompatActivity {
 
 
     @RequiresApi(api = Build.VERSION_CODES.N)
+    //vuelve a la pantalla principal
     public void volver(View view) {
 
         Intent i = new Intent(this, MainActivity.class);

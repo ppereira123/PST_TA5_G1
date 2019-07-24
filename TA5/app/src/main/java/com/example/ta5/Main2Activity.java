@@ -27,6 +27,7 @@ public class Main2Activity extends AppCompatActivity {
 
     }
 
+    //vuelve a la pantalla principal
     public void volver(View view) {
         Intent i = new Intent(this, MainActivity.class );
         startActivity(i);
