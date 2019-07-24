@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void mapa(View view) {
+        Intent i = new Intent(this, Mapa.class );
+        startActivity(i);
+    }
+
 }
