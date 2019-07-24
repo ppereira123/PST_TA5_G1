@@ -23,6 +23,5 @@
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         <!--Se obtuvo la clave de google api console-->
         AIzaSyCbs6zSp1CTEWl6mrvHXwyvZ7AQTYPvx3E
-    }
     </string>
 </resources>
